@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/activity_cut"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.yw.phototest.CutActivity">
+<uk.co.senab.photoview.PhotoView
+    android:id="@+id/img"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"/>
+    <Button
+        android:id="@+id/bt_choose"
+        android:text="选择照片"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
